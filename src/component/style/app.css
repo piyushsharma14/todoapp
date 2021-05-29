@@ -1,0 +1,806 @@
+.Divbody {
+  border: 3px solid black;
+  width: 80vmax;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: Tododiv;
+  animation-duration: 3s;
+  background-color: rgb(154, 182, 189);
+  box-shadow: 0px 0px 7px 7px rgb(250, 162, 152);
+  text-align: center;
+  margin-top: 50px;
+}
+.heading {
+  background-color: rgb(12, 74, 85);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.Divbody:hover {
+  background-image: linear-gradient(#e2ef1999 35%,rgb(250, 162, 152) 48% );
+  box-shadow: 0px 0px 7px 7px rgb(154, 182, 189);
+}
+.heading:hover {
+  color: black;
+  background-color: teal;
+}
+.itemlabel {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+.item {
+  background-color: teal;
+  color: wheat;
+  font-size: 20px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+  width: 20%;
+  background-color: #0c4a55;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  padding: 0 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  letter-spacing: 0.05em;
+  height: 40px;
+}
+.Addbutton{
+    
+  animation-name: button;
+  animation-duration: 2s;
+}
+.show {
+  font-size: 20px;
+}
+.Showmain {
+  text-align: left;
+}
+.Show1 {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.Show2 {
+  display: inline;
+  margin-left: 5%;
+  margin-top: -5px;
+  color: rgb(12, 74, 85);
+  position: absolute;
+}
+.Show3 {
+  display: block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+  color: darkred;
+}
+.Show4 {
+  display: block;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+  color: darkslateblue;
+}
+.Logindiv {
+  width: 400px;
+  height: fit-content;
+  position: relative;
+  margin-top: 23%;
+
+  background-color: rgb(91 249 253 / 53%);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 5px rgb(235 249 247);
+  border-radius: 25px;
+}
+.Logindiv:hover {
+  opacity: 0.95;
+  background-color: rgb(32 72 63 / 68%);
+  color: snow;
+  font-family: "sans-serif";
+  font-size: 20px;
+}
+.Registerinput1,
+.Registerinput2,
+.Registerinput3,
+.Registerinput4,
+.Registerinput5,
+.Registerinput6,
+.Registerinput7,
+.Registerinput8 {
+  font-size: 15px;
+  border: 1px solid #14dcbd;
+  margin-top: 13px;
+  margin-left: 103px;
+  width: 250px;
+  height: 10px;
+  padding: 12px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+  display: inline-block;
+}
+
+.Registerinput1 {
+  margin-top: -20px;
+}
+.Registerinput2 {
+  margin-top: -5px;
+}
+.Registerinput3 {
+  margin-top: -7px;
+}
+.Registerinput4 {
+  margin-top: -7px;
+}
+.Loginlabel {
+  font-size: 20px;
+  margin-top: 20%;
+}
+.Logininput1 {
+  font-size: 15px;
+  padding: 5px;
+  background-color: lemonchiffon;
+  color: blueviolet;
+  margin-left: 36px;
+}
+
+.Logininput2 {
+  font-size: 15px;
+  padding: 5px;
+  background-color: lemonchiffon;
+  color: blueviolet;
+  margin-left: 7px;
+}
+.Loginbutton {
+  margin-left: 12%;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100px;
+  background-color: lemonchiffon;
+  color: black;
+  border-radius: 10px;
+}
+.Loginregisterbutton {
+  margin-left: 15%;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: rgb(80, 188, 231);
+  text-decoration-color: floralwhite;
+}
+.Loginregisterbutton:hover {
+  background-color: darkmagenta;
+  color: wheat;
+  border-radius: 5px;
+}
+.Registerbutton {
+  display: inline-block;
+  color: #252537;
+  width: 150px;
+  font-size: 20px;
+  height: 50px;
+  padding: 0 20px;
+  background: #f7fff2;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 60px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin-left: 23px;
+  margin-top: 20px;
+  width: 150px;
+  letter-spacing: 0.05em;
+}
+.Registerbutton:hover {
+  color: cornsilk;
+  background-color: rgb(54, 64, 119);
+  border-radius: 5px;
+}
+.Registerloginbutton {
+  display: inline-block;
+  color: #252537;
+  width: 150px;
+  font-size: 20px;
+  height: 50px;
+  padding: 0 20px;
+  background: #076a91;
+  border-radius: 10px;
+  outline: none;
+  color: ivory;
+  margin-left: 60px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin-left: 23px;
+  margin-top: 20px;
+  width: 150px;
+  letter-spacing: 0.05em;
+}
+
+.Registerloginbutton:hover {
+  background-color: rgb(11, 123, 131);
+  color: #f7fff2;
+  border-radius: 5px;
+}
+.Registerloginbuttonlink {
+  color: black;
+}
+.Registerloginbuttonlink:hover {
+  color: blanchedalmond;
+}
+.Registerbuttondiv {
+  display: flex;
+  justify-content: center;
+}
+
+.Loginbutton:hover {
+  color: wheat;
+  background-color: rgb(54, 64, 119);
+  border-radius: 5px;
+}
+.Loginbuttonlink:hover {
+  color: white;
+}
+
+.Errorheading {
+  color: red;
+  text-align: center;
+  font-size: 22px;
+}
+
+.Logoutbutton {
+  background-color: rgb(12, 74, 85);
+    font-size: 20px;
+    float: right;
+    margin-right: -77px;
+    color: white;
+    margin-top: -46px;
+}
+
+.profilebutton {
+  background-color: rgb(12, 74, 85);
+    font-size: 20px;
+    float: right;
+    margin-right: 11px;
+    color: white;
+    margin-top: -46px;  
+}
+
+.Errorkdiv1 {
+  align-items: center;
+}
+.Errorheading1 {
+  color: rgb(66, 155, 7);
+  text-align: center;
+  font-size: 22px;
+}
+.animate{
+  animation-name: Delete;
+  animation-duration: 1s;
+  background-color: rgb(237, 236, 243);
+  width: 400px;
+  position: relative;
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px 5px rgb(97, 96, 88);
+
+}
+.Itemscard {
+  background-color: rgb(237, 236, 243);
+  width: 400px;
+  position: relative;
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  animation-name: ItemsCard;
+  animation-duration: 1.5s;
+  box-shadow: 0px 0px 5px 5px rgb(97, 96, 88);
+}
+.Detailsdiv {
+  background-image: linear-gradient(to left, #E8C4E2 2%, #bcefdf 19%,#e8c7e2 2%,#bcefdf 40%,#E8C4E2 -42%, #bcefdf 59%,#e8c7e2 204%,#bcefdf 243%);
+  display: flex;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+.Detailsname {
+  display: flex;
+  width: 280px;
+  height: 100px;
+}
+.Detailsname h3 {
+  margin-left: 20px;
+  color: black;
+  margin-top: 20px;
+}
+.Detailsname button {
+  float: right;
+  height: 30px;
+  width: 80px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(74, 185, 204);
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.Detailsname span {
+  margin: 8px;
+}
+.Namedetails {
+  margin-top: -53px;
+  margin-left: 20px;
+  color: black;
+  margin-bottom: 48px;
+}
+.Details div {
+  display: flex;
+  margin-top: -13px;
+}
+.Details h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #060738;
+}
+.Details h5 {
+  float: right;
+  color: #564909;
+  margin-top: 12px;
+}
+.Deatilsimage img {
+  border-radius: 50%;
+  margin: 20px;
+  box-shadow: 0px 0px 5px 5px #ad60a0;
+  animation-name: button;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+.Deatilsimage span {
+  margin-left: 25%;
+  font-size: 23px;
+  margin-top: 20px;
+}
+.Ratingheading {
+  display: flex;
+}
+.Ratingheading h5 {
+  margin-left: 3vh;
+  color: #060738;
+}
+.Ratingvalue {
+  display: flex;
+}
+.Ratingvalue h5 {
+  margin-left: 7vh;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.Nameinput {
+  margin-top: 20px;
+  margin-left: 21px;
+  width: 120px;
+  font-size: 15px;
+}
+.Emailinput {
+  height: 20px;
+  margin-top: 20px;
+}
+.Cityinput {
+  height: 20px;
+  margin-top: 20px;
+}
+.Stateinput {
+  height: 20px;
+  margin-top: 20px;
+}
+.Countryinput {
+  height: 20px;
+  margin-top: 20px;
+}
+.Phoneinput {
+  height: 20px;
+  margin-top: 20px;
+}
+.Nameinput:hover,
+.Emailinput:hover,
+.Stateinput:hover,
+.Cityinput:hover,
+.Countryinput:hover,
+.Phoneinput:hover {
+  box-shadow: 0px 0px 3px 3px lightgrey;
+  border-radius: 5px;
+}
+.Modelview {
+  position: relative;
+  width: 510px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: Model;
+  animation-duration: 2.5s;
+}
+.Modeldiv {
+  border: 1px solid black;
+  background-image:linear-gradient(to left, #E8C4E2 5%, #bcefdf 20.9%,#e8c7e2 -15%,#bcefdf 40.6%,#E8C4E2 -35%, #bcefdf 59%,#e8c7e2 204%,#bcefdf 243%);
+  margin-top: 4vh;
+  width: 500px;
+  position: absolute;
+}
+
+.Modelbutton:hover {
+  color: white;
+  background-color: black;
+}
+#image {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.Uploadbutton {
+  color: white;
+  background-color: rgb(74, 185, 204);
+  margin-left: 25%;
+  font-size: 14px;
+}
+
+.Modelbutton {
+  display: flex;
+  color: white;
+  background-color: lightslategray;
+  margin: 8px;
+  margin-left: 94%;
+  position: relative;
+}
+
+.Loginmain {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Vibur", cursive;
+  font-family: "Abel", sans-serif;
+  opacity: 0.95;
+  position: fixed;
+  margin: 0 auto;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+}
+.overlay {
+  display: flex;
+  justify-content: center;
+}
+.overlay form {
+  width: 450px;
+  top: auto;
+  bottom: auto;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  animation-name: example;
+  animation-duration: 5s;
+  box-shadow: 0 9px 50px hsl(186deg 20% 44% / 96%);
+  padding: 2%;
+  background-image: linear-gradient(
+    228deg,
+    #bcefdf 23%,
+    #e8c7e2 43%,
+    #bcefdf 90%
+  );
+}
+.con {
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.head-form {
+  margin: 2% auto 10% auto;
+  text-align: center;
+}
+.head-form h2 {
+  font-size: 250%;
+  font-family: "Playfair Display", serif;
+  color: #3e403f;
+}
+.head-form p {
+  letter-spacing: 0.05em;
+}
+
+.input-item {
+  background: #fff;
+  color: #333;
+  padding: 19px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+  width: 50px;
+  display: inline-block;
+  height: 26px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+/* inputs form  */
+.form-input {
+  width: 240px;
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+  color: #5e6472;
+
+  outline: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.2s linear;
+}
+#txt-input {
+  margin-top: -20px;
+  height: 30px;
+}
+#pwd {
+  height: 30px;
+}
+.form-input:focus {
+  transform: translateX(-2px);
+  border-radius: 5px;
+}
+.field-set {
+  margin-top: -40px;
+}
+.log-in {
+  display: inline-block;
+  color: #252537;
+  width: 280px;
+  height: 50px;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 60px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin-left: 110px;
+  margin-top: 20px;
+  width: 48%;
+
+  letter-spacing: 0.05em;
+}
+.submits {
+  width: 48%;
+  display: inline-block;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.sign-up {
+  background: #e8c7e2;
+  color: black;
+  border: 1px solid black;
+}
+
+.log-in:hover {
+  transform: translatey(3px);
+  box-shadow: none;
+}
+.Registermain {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Vibur", cursive;
+  font-family: "Abel", sans-serif;
+  opacity: 0.95;
+
+  position: fixed;
+  margin: 0 auto;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+}
+.Registerheading{
+    margin-left: 25vh;
+    margin-top: -17px;
+}
+.Registeroverlay {
+  width: 450px;
+  top: auto;
+  bottom: auto;
+  max-height: 600px;
+  height: fit-content;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsl(186deg 20% 44% / 96%);
+  padding: 2%;
+  animation: register 5s;
+  animation-timing-function: linear;
+  background-image: linear-gradient(130deg, #bcefdf 50%, #e8c7e2 50%);
+}
+@keyframes example {
+  from {
+    background-image: linear-gradient(
+      256deg,
+      #5d915d 40%,
+      #bdbd80 80%,
+      #cf8989 20%
+    );
+  }
+  to {
+    background-image: cross-fade(256deg, #7ea97e 40%, #bdbd80 90%, #986868 20%);
+  }
+}
+
+@keyframes register {
+  from {
+    background-image: linear-gradient(to top, #bcefdf 50%, #e8c7e2 50%);
+  }
+  to {
+    background-image: linear-gradient(to bottom, #bcefdf 50%, #e8c7e2 50%);
+  }
+}
+
+@keyframes ItemsCard {
+    from{
+        left: -50%;
+        position: relative;
+        opacity: 0.5;
+    }
+    to
+    { left:0%;
+    position: relative;
+}
+}
+
+@keyframes Delete {
+    from{
+        left: 0%;
+        position: relative;
+    }
+    to
+    { left:50%;
+    opacity: 0;
+    position: relative;
+}
+}
+@keyframes Tododiv {
+    0%
+    {
+        opacity: 0;
+    }
+    25%
+    {
+    opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes button {
+    100% {transform: rotate(360deg);}
+  }
+@keyframes Model {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .input-item{
+        margin-left: 10px;
+    }
+    .log-in{
+        margin-left: 89px;
+    }
+    .Registerinput1, .Registerinput2, .Registerinput3, .Registerinput4, .Registerinput5, .Registerinput6, .Registerinput7, .Registerinput8 {
+        margin-left:6.5vh;
+    }
+    .Registerbutton {
+        margin-left: 2vh;
+        height: 42px;
+        width: auto;
+    }
+    .Registerloginbutton {
+        margin-left: 5vh;
+        height: 43px;
+        width: auto;
+    }
+    .overlay form {
+        width: 339px;
+        margin-top: 13vh;
+    }
+    .Registeroverlay {
+        width: 333px;
+        margin-top: 12vh;
+  }
+  .Registerheading {
+    margin-left: 15vh;
+  }
+  .Divbody{
+      width: 53vh;
+  }
+  .Itemscard{
+    width: 47vh;
+  }
+  .Show2{
+    margin-right: 11%;
+  }
+  .profilebutton {
+    margin-right: 84px;
+  }
+  .Logoutbutton{
+    margin-right: -1px;
+  }
+  .Detailsdiv {
+      display: grid;
+  }
+  .Modeldiv {
+    width: min-content;
+    height: auto;
+    background-image: linear-gradient(to left, #E8C4E2 8%, #bcefdf 21.9%,#e8c7e2 -15%,#bcefdf 40.6%,#E8C4E2 -33%, #bcefdf 59%,#e8c7e2 204%,#bcefdf 243%);
+  }
+    .Deatilsimage img {
+        margin-top: -18px;
+        margin-left: 45px;
+    }
+    .Deatilsimage span {
+        margin-left: 75px;
+    }
+    .Ratingheading h5 {
+        margin-left: 7vh;
+    }
+    .Ratingvalue h5 {
+        margin-left: 11vh;
+    }
+  .Detailsname{
+    margin-top: -28px;
+    margin-left: -1px;
+  }
+  .Details {
+    margin-top: -31px;
+}
+.Modelbutton{
+    margin-left: 90%;
+}
+.Modeldiv {
+    width: min-content;
+    height: auto;
+    margin-top: 14px;
+    margin-left: 5vh;
+}
+}
