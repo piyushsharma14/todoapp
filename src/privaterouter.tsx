@@ -23,7 +23,7 @@ const PrivateRoute: React.FC<Props> = ({ component:Component, ...rest }) => {
                 <Component {...props} />
             </div>    
           ) : (
-          <Redirect to={{ pathname: "/", state: { from: props.location } }} />
+          <Redirect to={{ pathname: "/todoapp", state: { from: props.location } }} />
         )
       }
     />
