@@ -213,7 +213,7 @@ const Register = () => {
           <div className="Registerbuttondiv">
             {complete ? (
               () => {
-                history.push("/todoist");
+                history.push("/todoapp");
               }
             ) : (
               <button className="Registerbutton" type="submit">
@@ -224,7 +224,7 @@ const Register = () => {
               type="button"
               className="Registerloginbutton"
               onClick={() => {
-                history.push("/todoist");
+                history.push("/todoapp");
               }}
             >
               Login

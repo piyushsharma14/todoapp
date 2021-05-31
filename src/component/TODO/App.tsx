@@ -56,7 +56,7 @@ const App = () => {
     }
   };
   const logoutFun = () => {
-    history.push("/todoist");
+    history.push("/todoapp");
     window.localStorage.removeItem("Info");
   };
   const profileFun = () => {

@@ -10,9 +10,9 @@ function App() {
     <div>
     <BrowserRouter>
       <Switch>
-        <Route exact path="/todoist" component={Login} />
-        <Route exact path="/todoist/register" component={Register} />
-        <PrivateRoute exact path='/todoist/status' component={Status} />
+        <Route exact path="/todoapp" component={Login} />
+        <Route exact path="/todoapp/register" component={Register} />
+        <PrivateRoute exact path='/todoapp/status' component={Status} />
       </Switch>
     </BrowserRouter>
   </div>
