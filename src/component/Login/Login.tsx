@@ -48,7 +48,7 @@ const User = () => {
       var decrypted = CryptoJS.AES.decrypt(friend.password, "Secret Passphrase");
       if (friend.email === email && decrypted.toString(CryptoJS.enc.Utf8) === password) {
         button = true;
-        history.push("/todoapp/status");
+        history.push("/todoapp/status/");
         window.localStorage.setItem("Info", JSON.stringify(friend));
       }
       return null;
@@ -101,7 +101,7 @@ const User = () => {
             </button>
           </div>
             <div className="other">
-              <button className="btn submits sign-up log-in" onClick={()=>{history.push("/todoapp/register")}}>
+              <button className="btn submits sign-up log-in" onClick={()=>{history.push("/todoapp/register/")}}>
                   Register
               </button>
             </div>

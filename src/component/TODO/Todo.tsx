@@ -11,7 +11,7 @@ import Details from "../Profile/details";
 import useDetailsAPI from "../API/DetailsAPI";
 
 
-const App = () => {
+const TOdo = () => {
   const [newInputData, setNewInputData] = useState<string>("");
   const [edititem, updateedititem] = useState<boolean>(true);
   const [editinputid, seteditinputid] = useState<string>("");
@@ -23,9 +23,6 @@ const App = () => {
 
   const [list, isloading] = useLocalStorage(); //custom hooks
 
-  // if (!window.localStorage.getItem("Info")) {
-  //   history.push("/");
-  // }
   function getValue(event: {
     target: { value: React.SetStateAction<string> };
   }) {
@@ -56,7 +53,7 @@ const App = () => {
     }
   };
   const logoutFun = () => {
-    history.push("/todoapp");
+    history.push("/todoapp/");
     window.localStorage.removeItem("Info");
   };
   const profileFun = () => {
@@ -175,4 +172,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default TOdo;
